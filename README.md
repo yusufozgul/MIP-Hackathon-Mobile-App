@@ -5,7 +5,10 @@
 ![Alt text](https://svgshare.com/i/Bot.svg)
 
 
-## #Manisa Industrial Park Hackathon 2019Wda yapılan İkinciliği kazanan mobil uygulama.
+### Manisa Industrial Park Hackathon 2019Wda yapılan İkinciliği kazanan mobil uygulama.
+
+##### İkonlar Emoji ve [Apple SF Symbols] (https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) kullanılarak yapılmıştır.
+
 
 
 ### Ekran Görüntüleri
