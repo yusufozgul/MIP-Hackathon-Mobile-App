@@ -9,6 +9,12 @@
 
 ##### İkonlar Emoji ve [Apple SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) kullanılarak yapılmıştır.
 
+### Ekip Üyeleri:
+[Yusuf Özgül](https://github.com/yusufozgul)
+[Ayberk Çakar](https://github.com/AyberkCakar)
+[İsmail Sefa Akdeniz](https://github.com/SefaAkdeniz)
+[Dorukan Eskiçeri](https://github.com/DorukanE)
+
 
 
 ### Ekran Görüntüleri
