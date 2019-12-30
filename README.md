@@ -29,7 +29,7 @@
 
 ![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0641.PNG)  
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0642.PNG)
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0648.PNG)
 
 ![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0642.PNG)
 
@@ -38,3 +38,5 @@
 ![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0644.PNG)  
 
 ![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0645.PNG)  
+
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0648.PNG)  
