@@ -10,22 +10,22 @@
 
 ### Ekran Görüntüleri
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0637.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0637.PNG)  
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0638.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0638.PNG)  
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0639.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0639.PNG)  
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0640.PNG)
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0640.PNG)
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0641.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0641.PNG)  
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0642.PNG)
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0642.PNG)
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0642.PNG)
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0642.PNG)
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0643.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0643.PNG)  
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0644.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0644.PNG)  
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/SS/IMG_0645.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0645.PNG)  
