@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": "master",
+          "revision": "8b7474adb7f7ed4825b56aeea286e250de0f4d0a",
+          "version": null
+        }
+      },
+      {
+        "package": "IQKeyboardManagerSwift",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+        "state": {
+          "branch": null,
+          "revision": "dba0d0a6689534e7b7aae7d3728af0ca60a24b66",
+          "version": "6.5.4"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "247f74a5d191e9c6bd601d292c99cf9fe1658930",
+          "version": "5.4.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

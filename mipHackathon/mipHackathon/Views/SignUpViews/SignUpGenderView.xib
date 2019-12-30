@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TTNorms-Medium.otf">
+            <string>TTNorms-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SignUpGenderView" customModule="mipHackathon" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="398"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NBi-TY-xvr">
+                    <rect key="frame" x="0.0" y="60" width="366" height="162"/>
+                </pickerView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knj-vK-ZJ0">
+                    <rect key="frame" x="24" y="0.0" width="34.5" height="17"/>
+                    <fontDescription key="fontDescription" name="TTNorms-Medium" family="TT Norms" pointSize="14"/>
+                    <color key="textColor" name="DarkMainTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vh7-tX-dG2">
+                    <rect key="frame" x="24" y="238" width="318" height="43"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wh-Yw-hPM">
+                            <rect key="frame" x="0.0" y="0.0" width="318" height="43"/>
+                            <connections>
+                                <action selector="tapContiune:" destination="iN0-l3-epB" eventType="touchUpInside" id="7Ky-iy-zoX"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hz6-Aw-4hQ">
+                            <rect key="frame" x="142.5" y="12" width="33.5" height="19"/>
+                            <fontDescription key="fontDescription" name="TTNorms-Medium" family="TT Norms" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="0Wh-Yw-hPM" secondAttribute="trailing" id="7xJ-hR-oXh"/>
+                        <constraint firstAttribute="bottom" secondItem="0Wh-Yw-hPM" secondAttribute="bottom" id="Dts-uY-O4h"/>
+                        <constraint firstItem="hz6-Aw-4hQ" firstAttribute="centerX" secondItem="vh7-tX-dG2" secondAttribute="centerX" id="QWx-kh-oUq"/>
+                        <constraint firstItem="0Wh-Yw-hPM" firstAttribute="top" secondItem="vh7-tX-dG2" secondAttribute="top" id="WvL-AX-OYb"/>
+                        <constraint firstItem="0Wh-Yw-hPM" firstAttribute="leading" secondItem="vh7-tX-dG2" secondAttribute="leading" id="YtJ-Rj-tmg"/>
+                        <constraint firstItem="hz6-Aw-4hQ" firstAttribute="centerY" secondItem="vh7-tX-dG2" secondAttribute="centerY" id="erf-Qi-BiK"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="qSf-vB-36Z"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vh7-tX-dG2" firstAttribute="width" secondItem="vh7-tX-dG2" secondAttribute="height" multiplier="325:44" id="I3b-zM-FbX"/>
+                <constraint firstItem="NBi-TY-xvr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="JsF-op-cV3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vh7-tX-dG2" secondAttribute="trailing" constant="24" id="Oey-l6-q5r"/>
+                <constraint firstItem="NBi-TY-xvr" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="0.01" id="R36-0N-RAm"/>
+                <constraint firstItem="vh7-tX-dG2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="Wx7-KB-09s"/>
+                <constraint firstItem="knj-vK-ZJ0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="0.01" id="Xx9-Z1-0ii"/>
+                <constraint firstItem="vh7-tX-dG2" firstAttribute="top" secondItem="NBi-TY-xvr" secondAttribute="bottom" constant="16" id="dWL-2h-8j5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="vh7-tX-dG2" secondAttribute="bottom" constant="24" id="e1U-17-s6e"/>
+                <constraint firstItem="NBi-TY-xvr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="0.01" id="fi1-vp-2Ec"/>
+                <constraint firstItem="knj-vK-ZJ0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="tUW-kv-Nph"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="genderPicker" destination="NBi-TY-xvr" id="lsH-D7-XVp"/>
+                <outlet property="infoLabel" destination="knj-vK-ZJ0" id="gaX-we-NMD"/>
+                <outlet property="nextButtonLabel" destination="hz6-Aw-4hQ" id="jud-Vb-HOr"/>
+                <outlet property="nextButtonView" destination="vh7-tX-dG2" id="dtL-dd-1eZ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-14.0625"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="DarkMainTextColor">
+            <color red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

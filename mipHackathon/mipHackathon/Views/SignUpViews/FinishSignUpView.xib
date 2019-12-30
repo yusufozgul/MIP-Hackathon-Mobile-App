@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TTNorms-Medium.otf">
+            <string>TTNorms-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FinishSignUpView" customModule="mipHackathon" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="528"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSG-DY-cFg">
+                    <rect key="frame" x="24" y="157.5" width="318" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftv-aj-bsK">
+                            <rect key="frame" x="0.0" y="0.0" width="318" height="44"/>
+                            <connections>
+                                <action selector="finishSignUp:" destination="iN0-l3-epB" eventType="touchUpInside" id="BIT-qp-Jet"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXR-RR-RXZ">
+                            <rect key="frame" x="142.5" y="12.5" width="33.5" height="19"/>
+                            <fontDescription key="fontDescription" name="TTNorms-Medium" family="TT Norms" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Ftv-aj-bsK" secondAttribute="trailing" id="01C-0X-yEh"/>
+                        <constraint firstItem="Ftv-aj-bsK" firstAttribute="leading" secondItem="cSG-DY-cFg" secondAttribute="leading" id="31r-7g-3fb"/>
+                        <constraint firstAttribute="bottom" secondItem="Ftv-aj-bsK" secondAttribute="bottom" id="K8h-uu-23F"/>
+                        <constraint firstItem="hXR-RR-RXZ" firstAttribute="centerY" secondItem="cSG-DY-cFg" secondAttribute="centerY" id="eOc-Fb-2DU"/>
+                        <constraint firstItem="Ftv-aj-bsK" firstAttribute="top" secondItem="cSG-DY-cFg" secondAttribute="top" id="gKd-Xh-c9r"/>
+                        <constraint firstItem="hXR-RR-RXZ" firstAttribute="centerX" secondItem="cSG-DY-cFg" secondAttribute="centerX" id="kJq-O6-xpt"/>
+                        <constraint firstAttribute="height" constant="44" id="xFb-K9-XFv"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hazırsınız şimdi uygulamayı kullanmaya başlayabilirsiniz, keyifli vakit geçirmeniz ümidiyle :)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5J-Fo-naZ">
+                    <rect key="frame" x="24" y="68" width="318" height="73.5"/>
+                    <fontDescription key="fontDescription" name="TTNorms-Medium" family="TT Norms" pointSize="21"/>
+                    <color key="textColor" name="DarkMainTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="a5J-Fo-naZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="4nk-s5-aAH"/>
+                <constraint firstItem="cSG-DY-cFg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="MEx-Hb-3US"/>
+                <constraint firstAttribute="trailing" secondItem="a5J-Fo-naZ" secondAttribute="trailing" constant="24" id="SAq-9a-aU4"/>
+                <constraint firstItem="a5J-Fo-naZ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="SlC-pD-hj4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cSG-DY-cFg" secondAttribute="bottom" constant="24" id="Wvl-Kz-4p8"/>
+                <constraint firstItem="cSG-DY-cFg" firstAttribute="top" secondItem="a5J-Fo-naZ" secondAttribute="bottom" constant="16" id="hnB-aY-Q64"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cSG-DY-cFg" secondAttribute="trailing" constant="24" id="r4B-0T-kSl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="infoLabel" destination="a5J-Fo-naZ" id="MNF-kA-X9V"/>
+                <outlet property="nextButtonLabel" destination="hXR-RR-RXZ" id="97x-fy-41r"/>
+                <outlet property="nextButtonView" destination="cSG-DY-cFg" id="U4o-dr-2ZJ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="275.89285714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="DarkMainTextColor">
+            <color red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

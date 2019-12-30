@@ -1,0 +1,6 @@
+framework module Pods_mipHackathon {
+  umbrella header "Pods-mipHackathon-umbrella.h"
+
+  export *
+  module * { export * }
+}

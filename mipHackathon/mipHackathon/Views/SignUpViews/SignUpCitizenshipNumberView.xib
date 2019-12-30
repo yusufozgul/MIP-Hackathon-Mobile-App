@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TTNorms-Medium.otf">
+            <string>TTNorms-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SignUpCitizenshipNumberView" customModule="mipHackathon" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="186"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaL-7N-gek">
+                    <rect key="frame" x="24" y="0.0" width="34.5" height="17"/>
+                    <fontDescription key="fontDescription" name="TTNorms-Medium" family="TT Norms" pointSize="14"/>
+                    <color key="textColor" name="DarkMainTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YK-Dc-4Gn">
+                    <rect key="frame" x="24" y="33" width="318" height="49"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sjS-0B-ubO">
+                            <rect key="frame" x="24" y="8" width="270" height="33"/>
+                            <color key="textColor" name="DarkMainTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="sjS-0B-ubO" firstAttribute="leading" secondItem="3YK-Dc-4Gn" secondAttribute="leading" constant="24" id="6zO-sw-24f"/>
+                        <constraint firstAttribute="trailing" secondItem="sjS-0B-ubO" secondAttribute="trailing" constant="24" id="SQA-ny-wAA"/>
+                        <constraint firstAttribute="width" secondItem="3YK-Dc-4Gn" secondAttribute="height" multiplier="13:2" id="l0A-gU-bd2"/>
+                        <constraint firstAttribute="bottom" secondItem="sjS-0B-ubO" secondAttribute="bottom" constant="8" id="lh8-o1-47Z"/>
+                        <constraint firstItem="sjS-0B-ubO" firstAttribute="top" secondItem="3YK-Dc-4Gn" secondAttribute="top" constant="8" id="pyg-yh-3QU"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JD8-mI-zJI">
+                    <rect key="frame" x="24" y="106" width="318" height="43"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hex-op-t0x">
+                            <rect key="frame" x="0.0" y="0.0" width="318" height="43"/>
+                            <connections>
+                                <action selector="tapContiune:" destination="iN0-l3-epB" eventType="touchUpInside" id="J73-T6-gS1"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAe-3T-9vF">
+                            <rect key="frame" x="142.5" y="12" width="33.5" height="19"/>
+                            <fontDescription key="fontDescription" name="TTNorms-Medium" family="TT Norms" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="Jc4-wC-kba"/>
+                        <constraint firstItem="lAe-3T-9vF" firstAttribute="centerY" secondItem="JD8-mI-zJI" secondAttribute="centerY" id="OJk-sW-0lV"/>
+                        <constraint firstItem="Hex-op-t0x" firstAttribute="top" secondItem="JD8-mI-zJI" secondAttribute="top" id="ifd-iY-chm"/>
+                        <constraint firstItem="lAe-3T-9vF" firstAttribute="centerX" secondItem="JD8-mI-zJI" secondAttribute="centerX" id="ilZ-ek-jZ0"/>
+                        <constraint firstItem="Hex-op-t0x" firstAttribute="leading" secondItem="JD8-mI-zJI" secondAttribute="leading" id="uWL-uj-ngn"/>
+                        <constraint firstAttribute="bottom" secondItem="Hex-op-t0x" secondAttribute="bottom" id="x2p-cK-rgY"/>
+                        <constraint firstAttribute="trailing" secondItem="Hex-op-t0x" secondAttribute="trailing" id="y7l-ck-myB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="EaL-7N-gek" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="1RO-P8-Ka7"/>
+                <constraint firstItem="EaL-7N-gek" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="0.01" id="CNO-Lv-nhC"/>
+                <constraint firstItem="JD8-mI-zJI" firstAttribute="width" secondItem="JD8-mI-zJI" secondAttribute="height" multiplier="325:44" id="IVX-pX-vIP"/>
+                <constraint firstItem="JD8-mI-zJI" firstAttribute="top" secondItem="3YK-Dc-4Gn" secondAttribute="bottom" constant="24" id="Odl-fe-kGx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="JD8-mI-zJI" secondAttribute="bottom" constant="24" id="RH5-VQ-D83"/>
+                <constraint firstItem="JD8-mI-zJI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="fzn-HG-Ou0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="JD8-mI-zJI" secondAttribute="trailing" constant="24" id="iMJ-e2-c1r"/>
+                <constraint firstItem="3YK-Dc-4Gn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="rBE-tM-kt3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3YK-Dc-4Gn" secondAttribute="trailing" constant="24" id="saD-PT-BEZ"/>
+                <constraint firstItem="3YK-Dc-4Gn" firstAttribute="top" secondItem="EaL-7N-gek" secondAttribute="bottom" constant="16" id="tnY-Q1-rAT"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="citizenshipNumberAreaView" destination="3YK-Dc-4Gn" id="w6B-kW-8Pa"/>
+                <outlet property="citizenshipNumberTextField" destination="sjS-0B-ubO" id="yuG-IQ-mks"/>
+                <outlet property="contiuneLabel" destination="lAe-3T-9vF" id="Shn-UO-2eY"/>
+                <outlet property="contiuneView" destination="JD8-mI-zJI" id="eNF-h7-AQI"/>
+                <outlet property="infoLabel" destination="EaL-7N-gek" id="7Ct-rE-TdU"/>
+            </connections>
+            <point key="canvasLocation" x="121.73913043478262" y="9.375"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="DarkMainTextColor">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

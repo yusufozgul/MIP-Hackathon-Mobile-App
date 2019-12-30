@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>762103059039-smakmt1qi8obnfnkriu3vevphk5lemao.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.762103059039-smakmt1qi8obnfnkriu3vevphk5lemao</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCF70XNuJEfvLUfBJ5wK8aCQIHbcyBXbs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>762103059039</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yusufozgul.mipHackathon</string>
+	<key>PROJECT_ID</key>
+	<string>hackhaton-fc808</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hackhaton-fc808.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:762103059039:ios:fc45080c7c7a9ad05481ea</string>
+	<key>DATABASE_URL</key>
+	<string>https://hackhaton-fc808.firebaseio.com</string>
+</dict>
+</plist>
