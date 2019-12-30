@@ -10,7 +10,7 @@
 
 ### Ekran Görüntüleri
 
-![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0637.PNG)  
+![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0637.PNG)  {:class="img-responsive"}
 
 ![alt text](https://github.com/yusufozgul/MIP-Hackathon-Mobile-App/blob/master/SS/IMG_0638.PNG)  
 
